@@ -1,0 +1,49 @@
+//colors
+
+$background-color:#f3f6fd;
+
+$primary-color:#1f1c31;
+
+$grey-color:#464648;
+
+$grey-light:rgba(0,0,0,0.2);
+
+$blue-color:#2bc7ff;
+$blue-light-color:#dbf6ff;
+
+$orange-color:#fe733a;
+$orange-light-color:#fee4cb;
+
+$green-color:#03cf54;
+$green-light-color:#baf3d2;
+
+$pink-color: #ff73a8;
+$pink-light-color:#ffd3e2;
+
+$grey-dark-1: #333;
+$grey-dark-2: #777;
+$grey-dark-3: #999;
+
+//box-shadow
+
+$box-shadow-1: 0 2px 8px rgba(0,0,0,0.2);
+$box-shadow-2: 0 2px 16px rgba(0,0,0,0.1);
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; //1rem = 10px; 10px/16px = 62.5%
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box; 
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--grey-dark-2);
+    background-color: $background-color;
+}
